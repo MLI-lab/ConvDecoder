@@ -3,7 +3,6 @@ from .wavelet import *
 from .decoder import *
 from .decoder_parallel import *
 from .decoder_skip import *
-from .decoder_parallel_conv import *
 from .visualize import *
 from .fit import *
 from .helpers import *

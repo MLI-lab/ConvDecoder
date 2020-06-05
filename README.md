@@ -4,6 +4,8 @@
 
 This repository provides code for reproducing the results in the paper:
 
+**``Can Un-trained Neural Networks Compete with Trained Neural Networks at Image Reconstruction?''**, by Mohammad Zalbagi Darestani and Reinhard Heckel
+
 Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@rice.edu)
 ***
 

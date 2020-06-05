@@ -1,6 +1,6 @@
 # ConvDecoder
 
-![](ConvDecoder_architecture/ConvDecoder.jpg)
+![arch](ConvDecoder_architecture/ConvDecoder.jpg)
 
 This repository provides code for reproducing the results in the paper:
 

@@ -1,6 +1,6 @@
 # ConvDecoder
 
-<p align="center"><img src="./ConvDecoder_architecture/ConvDecoder.JPG" width="650" height="150"></p>
+<p align="center"><img src="./ConvDecoder_architecture/ConvDecoder.JPG" width="650" height="175"></p>
 
 This repository provides code for reproducing the results in the paper:
 

@@ -2,7 +2,7 @@
 
 This repository provides code for reproducing the results in the paper:
 
-***
+*
 
 Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@rice.edu)
 

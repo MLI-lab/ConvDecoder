@@ -2,6 +2,7 @@
 
 <p align="center"><img src="./ConvDecoder_architecture/ConvDecoder.JPG" width="650" height="175"></p>
 
+<br>
 This repository provides code for reproducing the results in the paper:
 
 **''Can Un-trained Neural Networks Compete with Trained Neural Networks at Image Reconstruction?''**, by Mohammad Zalbagi Darestani and Reinhard Heckel

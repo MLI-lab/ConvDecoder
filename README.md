@@ -28,7 +28,7 @@ The aim of the code is to investigate the capability of different un-trained met
 * [License](#License)
 
 # Setup and installation
-On a normal computer, it takes aproximately 5 minutes to install all the required softwares and packages.
+On a normal computer, it takes aproximately 10 minutes to install all the required softwares and packages.
 
 ### OS requirements
 The code has been tested on the following operating system:

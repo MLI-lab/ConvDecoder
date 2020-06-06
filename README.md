@@ -54,7 +54,7 @@ To reproduce the results by running each of the jupyter notebooks, the following
 If pip does not come with the version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html). Also, install pytorch from [here](https://pytorch.org/) according to your system specifications. 
 
 # Dataset
-All the experiments are performed on the [FastMRI](https://fastmri.org/dataset) dataset.
+All the experiments are performed on the [FastMRI](https://fastmri.org/dataset) dataset--except the experiment for measuring the robustness toward out-of-distribution samples which is performed on the cameraman test image.
 
 # Running the code
 You may simply clone this repository and run each notebook to reproduce the results. **Note** that you need to download the [FastMRI](https://fastmri.org/dataset) dataset and change the **data path** (when loading the measurements) in each notebook accordingly, provided that you intend to run the code for MRI data.

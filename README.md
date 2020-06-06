@@ -57,7 +57,7 @@ If pip does not come with the version of python you installed, install pip manua
 All the experiments are performed on the [FastMRI](https://fastmri.org/dataset) dataset.
 
 # Running the code
-You may simply clone this repository and run each notebook to reproduce the results. **Note** that you need to download the [FastMRI](https://fastmri.org/dataset) dataset and change the **data-path** in each notebook accordingly, provided that you intend to run the code for MRI data.
+You may simply clone this repository and run each notebook to reproduce the results. **Note** that you need to download the [FastMRI](https://fastmri.org/dataset) dataset and change the **data path** (when loading the measurements) in each notebook accordingly, provided that you intend to run the code for MRI data.
 
 # References
 Code for training the U-net is taken from [here](https://github.com/facebookresearch/fastMRI/tree/master/models/unet) <br>

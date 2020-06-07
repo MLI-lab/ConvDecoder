@@ -40,7 +40,7 @@ The code has been tested on the following operating system:
 To reproduce the results by running each of the jupyter notebooks, the following softwares are required. Assuming the experiment is being performed in a docker container or a linux machine, the following libraries and packages need to be installed.
 
         apt-get update
-        apt-get install python3.6       # --> or any other system-specific command for installing python3 on your system.
+        apt-get install python3.6     # --> or any other system-specific command for installing python3 on your system.
 		pip install jupyter
 		pip install numpy
 		pip install matplotlib

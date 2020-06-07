@@ -50,6 +50,7 @@ To reproduce the results by running each of the jupyter notebooks, the following
 		pip install pytorch_msssim
 		pip install pytorch_lightning
 		pip install test-tube
+		pip install Pillow
 		
 If pip does not come with the version of python you installed, install pip manually from [here](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html). Also, install pytorch from [here](https://pytorch.org/) according to your system specifications. 
 

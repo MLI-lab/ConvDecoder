@@ -26,6 +26,7 @@ The aim of the code is to investigate the capability of different un-trained met
 * [Running the code](#Running-the-code) <br>
 * [References](#References) <br>
 * [License](#License)
+***
 
 # Setup and installation
 On a normal computer, it takes aproximately 10 minutes to install all the required softwares and packages.

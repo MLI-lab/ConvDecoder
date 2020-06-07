@@ -12,13 +12,13 @@ Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@ri
 
 The aim of the code is to investigate the capability of different un-trained methods, including our proposed ConvDecoder, for the MRI acceleration problem. The task is to recover a fine image from a few measurements. In this regard, we specifically provide experiments to: 
 
-(i) compare ConvDecoder with U-net, a standard popular trained method for medical imaging, on the FastMRI validation set (ConvDecoder_vs_Unet_multicoil.ipynb), 
+(i) compare ConvDecoder with U-net, a standard popular trained method for medical imaging, on the FastMRI validation set (**ConvDecoder_vs_Unet_multicoil.ipynb**), 
 
-(ii) compare ConvDecoder with Deep Decoder and Deep Image Prior, two popular un-trained methods for standard inverse problems, again, on the FastMRI dataset (ConvDecoder_vs_DIP_vs_DD_multicoil.ipynb),
+(ii) compare ConvDecoder with Deep Decoder and Deep Image Prior, two popular un-trained methods for standard inverse problems, again, on the FastMRI dataset (**ConvDecoder_vs_DIP_vs_DD_multicoil.ipynb**),
 
-(iii) compare ConvDecoder with U-net on an out-of-distribution sample to demonstrate the robustness of un-trained methods toward a shift in the distribution at the inference time (robustness_to_distribution_shift.ipynb), 
+(iii) compare ConvDecoder with U-net on an out-of-distribution sample to demonstrate the robustness of un-trained methods toward a shift in the distribution at the inference time (**robustness_to_distribution_shift.ipynb**), 
 
-(iv) and finally, visualize the output of ConvDecoder layers to illustrate how ConvDecoder, as a convolutional generator, finds a fine representation of an image (visualize_layers_singlecoil.ipynb).
+(iv) and finally, visualize the output of ConvDecoder layers to illustrate how ConvDecoder, as a convolutional generator, finds a fine representation of an image (**visualize_layers_singlecoil.ipynb**).
 
 ### List of contents
 * [Setup and installation](Setup-and-installation) <br>
@@ -65,5 +65,4 @@ Code for training the U-net is taken from [here](https://github.com/facebookrese
 Code for Deep Decoder and Deep Image Prior architectures are taken from [repo1](https://github.com/reinhardh/supplement_deep_decoder) and [repo2](https://github.com/DmitryUlyanov/deep-image-prior), respectively.
 
 # License
-
 This project is covered by **Apache 2.0 License**.

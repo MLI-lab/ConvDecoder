@@ -62,7 +62,7 @@ All the experiments are performed on the [FastMRI](https://fastmri.org/dataset) 
 You may simply clone this repository and run each notebook to reproduce the results. **Note** that you need to download the [FastMRI](https://fastmri.org/dataset) dataset and change the **data path** (when loading the measurements) in each notebook accordingly, provided that you intend to run the code for MRI data.
 
 # References
-Code for training the U-net is taken from [here](https://github.com/facebookresearch/fastMRI/tree/master/models/unet) <br>
+Code for training the U-net is taken from [here](https://github.com/facebookresearch/fastMRI/tree/master/models/unet). <br>
 Code for Deep Decoder and Deep Image Prior architectures are taken from [repo1](https://github.com/reinhardh/supplement_deep_decoder) and [repo2](https://github.com/DmitryUlyanov/deep-image-prior), respectively.
 
 # License

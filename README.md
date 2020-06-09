@@ -21,7 +21,7 @@ The aim of the code is to investigate the capability of different un-trained met
 (iv) and finally, visualize the output of ConvDecoder layers to illustrate how ConvDecoder, as a convolutional generator, finds a fine representation of an image (**visualize_layers_singlecoil.ipynb**).
 
 ### List of contents
-* [Setup and installation](Setup-and-installation) <br>
+* [Setup and installation](#Setup-and-installation) <br>
 * [Dataset](#Dataset) <br>
 * [Running the code](#Running-the-code) <br>
 * [References](#References) <br>

@@ -49,7 +49,7 @@ To reproduce the results by running each of the jupyter notebooks, the following
 		pip install scikit-image
 		pip install runstats
 		pip install pytorch_msssim
-		pip install pytorch_lightning
+		pip install pytorch-lightning==0.7.5
 		pip install test-tube
 		pip install Pillow
 		

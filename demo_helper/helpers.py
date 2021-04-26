@@ -104,12 +104,6 @@ def root_sum_of_squares(data, dim=0):
     """
     return torch.sqrt((data ** 2).sum(dim))
 
-#def root_sum_of_squares2(lsimg):
-#    out = np.zeros(lsimg[0].shape)
-#    for img in lsimg:
-#        out += img**2
-#    return np.sqrt(out)
-
 def crop_center(img,cropx,cropy):
     y,x = img.shape
     startx = x//2-(cropx//2)

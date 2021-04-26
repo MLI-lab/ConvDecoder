@@ -186,6 +186,7 @@ def apply_mask(data, mask_func = None, mask = None, seed=None):
     return data * mask, mask
 
 def fft(input, signal_ndim, normalized=False):
+  # This function is called from the fft2 function below
   if signal_ndim < 1 or signal_ndim > 3:
     print("Signal ndim out of range, was", signal_ndim, "but expected a value between 1 and 3, inclusive")
     return
@@ -203,6 +204,7 @@ def fft(input, signal_ndim, normalized=False):
   return torch.view_as_real(torch.fft.fftn(torch.view_as_complex(input), dim=dims, norm=norm))
 
 def ifft(input, signal_ndim, normalized=False):
+  # This function is called from the ifft2 function below
   if signal_ndim < 1 or signal_ndim > 3:
     print("Signal ndim out of range, was", signal_ndim, "but expected a value between 1 and 3, inclusive")
     return
@@ -222,7 +224,7 @@ def ifft(input, signal_ndim, normalized=False):
 def fft2(data):
     """
     ref: https://github.com/facebookresearch/fastMRI/tree/master/fastmri
-    Apply centered 2 dimensional Fast Fourier Transform.
+    Apply centered 2 dimensional Fast Fourier Transform. It calls the fft function above to make it compatible with the latest version of pytorch.
 
     Args:
         data (torch.Tensor): Complex valued input data containing at least 3 dimensions: dimensions
@@ -242,7 +244,7 @@ def fft2(data):
 def ifft2(data):
     """
     ref: https://github.com/facebookresearch/fastMRI/tree/master/fastmri
-    Apply centered 2-dimensional Inverse Fast Fourier Transform.
+    Apply centered 2-dimensional Inverse Fast Fourier Transform. It calls the ifft function above to make it compatible with the latest version of pytorch.
 
     Args:
         data (torch.Tensor): Complex valued input data containing at least 3 dimensions: dimensions

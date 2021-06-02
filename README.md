@@ -1,6 +1,6 @@
 # ConvDecoder
 
-Check out our [DEMO](https://colab.research.google.com/drive/1xu_NS6ClikkOM1TTPL7EDqOjQZCvCvlL#offline=true&sandboxMode=true) for a quick example about how the decoder works for multi-coil accelerated MRI reconstruction.
+Check out our [DEMO](https://colab.research.google.com/drive/1xu_NS6ClikkOM1TTPL7EDqOjQZCvCvlL#offline=true&sandboxMode=true) for a quick example on how the decoder works for multi-coil accelerated MRI reconstruction.
 
 <p align="center"><img src="./ConvDecoder_architecture/ConvDecoder.JPG" width="650" height="175"></p>
 

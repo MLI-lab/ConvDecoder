@@ -1,18 +1,21 @@
 # ConvDecoder
 
-Check out our [DEMO](https://colab.research.google.com/drive/1xu_NS6ClikkOM1TTPL7EDqOjQZCvCvlL#offline=true&sandboxMode=true) for a quick example on how the decoder works for multi-coil accelerated MRI reconstruction.
+Check out our colab-demo for a quick example on how the decoder works for multi-coil accelerated MRI reconstruction:
+
+[![Explore ConvDecoder in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xu_NS6ClikkOM1TTPL7EDqOjQZCvCvlL#offline=true&sandboxMode=true)<br>
+
 
 <p align="center"><img src="./ConvDecoder_architecture/ConvDecoder.JPG" width="650" height="175"></p>
 
 <br>
 This repository provides code for reproducing the results in the paper:
 
-**''Can Un-trained Neural Networks Compete with Trained Neural Networks at Image Reconstruction?,''** by Mohammad Zalbagi Darestani and Reinhard Heckel
+**''Accelerated MRI with Un-trained Neural Networks''** by Mohammad Zalbagi Darestani and Reinhard Heckel
 
 Code by: Mohammad Zalbagi Darestani (mz35@rice.edu) and Reinhard Heckel (rh43@rice.edu)
 ***
 
-The aim of the code is to investigate the capability of different un-trained methods, including our proposed ConvDecoder, for the MRI acceleration problem. The task is to recover a fine image from a few measurements. In this regard, we specifically provide experiments to: 
+The aim of the code is to investigate the capability of different un-trained methods, including our proposed ConvDecoder, for the MRI acceleration problem. The task is to recover a fine image from a few measurements. We provide experiments to:
 
 (i) compare ConvDecoder with U-net, a standard popular trained method for medical imaging, on the FastMRI validation set (**ConvDecoder_vs_Unet_multicoil.ipynb**), 
 
@@ -69,3 +72,14 @@ Code for Deep Decoder and Deep Image Prior architectures are taken from [repo1](
 
 # License
 This project is covered by **Apache 2.0 License**.
+
+## Citation
+If you find our work useful in your research, please cite:
+```
+@inproceedings{,
+    author = {Zalbagi Darestani, Mohammad and Heckel, Reinhard},
+    title = {Accelerated MRI with Un-trained Neural Networks},
+    booktitle = {arXiv:2007.02471},
+    year={2020}
+}
+```

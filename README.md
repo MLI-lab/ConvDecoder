@@ -79,7 +79,9 @@ If you find our work useful in your research, please cite:
 @inproceedings{,
     author = {Zalbagi Darestani, Mohammad and Heckel, Reinhard},
     title = {Accelerated MRI with Un-trained Neural Networks},
-    booktitle = {arXiv:2007.02471},
-    year={2020}
+    booktitle = {IEEE Transactions of Computational Imaging},
+    volume={7},
+    pages={724--733},
+    year={2021}
 }
 ```
